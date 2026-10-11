@@ -1,0 +1,21 @@
+# Kredensial lokal
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data operasional / dump
+/data/
+/backups/
+*.sql
+*.dump
+*.sqlite
+*.sqlite3
+
+# File sementara
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+~$*
